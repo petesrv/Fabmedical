@@ -4,6 +4,7 @@ const path = require('path');
 const request = require('request');
 
 const app = express();
+
 const appInsights = require("applicationinsights");
 appInsights.setup("1dc2921a-0cc9-4cfa-925c-70b26afe65a4");
 appInsights.start();
